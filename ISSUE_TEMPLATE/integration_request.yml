@@ -1,0 +1,111 @@
+name: 🔌 Integration Request
+description: Request an integration between Slang and another product
+title: "[Integration]: "
+labels: ["integration", "enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you want Slang to connect to. Integration priority is driven largely by demand, so specifics genuinely help.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked [`slang-integrations`](https://github.com/slang/slang-integrations) — it does not already exist
+          required: true
+        - label: I searched for an existing request
+          required: true
+
+  - type: input
+    id: product
+    attributes:
+      label: Product name
+      placeholder: Linear
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Product URL
+      placeholder: https://linear.app
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Team communication (Slack, Teams, Discord)
+        - CRM (HubSpot, Salesforce, Pipedrive)
+        - E-commerce (Shopify, WooCommerce, Magento)
+        - CMS (WordPress, Webflow, Ghost)
+        - Issue tracking (Linear, Jira, GitHub)
+        - Analytics (Segment, Amplitude, PostHog)
+        - Automation (Zapier, Make, n8n)
+        - Calendar / Scheduling
+        - Payments / Billing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What should the integration do?
+      description: Be concrete about the workflow you want.
+      placeholder: |
+        - Create a Linear issue from a Slang conversation, keeping a link between them
+        - Post back to the conversation when the issue is closed
+        - Show the linked issue's status inside the Slang inbox
+    validations:
+      required: true
+
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Data direction
+      multiple: true
+      options:
+        - Slang → Product (push data out)
+        - Product → Slang (pull data in)
+        - Bidirectional sync
+        - Notifications only
+    validations:
+      required: true
+
+  - type: input
+    id: api-docs
+    attributes:
+      label: Their API documentation
+      description: If they have a public API, linking it speeds this up considerably.
+      placeholder: https://developers.linear.app
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Blocking — we cannot adopt Slang without it
+        - High — significant manual work today
+        - Medium — would improve our workflow
+        - Low — nice to have
+    validations:
+      required: true
+
+  - type: input
+    id: users
+    attributes:
+      label: How many people on your team use this product?
+      placeholder: "12"
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to help build this integration
+        - label: I would be willing to beta test it

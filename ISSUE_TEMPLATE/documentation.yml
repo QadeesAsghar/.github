@@ -1,0 +1,70 @@
+name: 📖 Documentation Improvement
+description: Report missing, unclear, outdated, or incorrect documentation
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation problems are real problems. Thanks for flagging this.
+
+        ✏️ Small fix like a typo or broken link? Skip this form and open a PR against [`slang-docs`](https://github.com/slang/slang-docs) directly — it is faster for everyone.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Missing — something is not documented at all
+        - Unclear — documented, but hard to follow
+        - Incorrect — the docs say something untrue
+        - Outdated — describes an older version
+        - Broken example — code sample does not work
+        - Broken link or navigation
+        - Typo or grammar
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Page URL or file path
+      placeholder: https://docs.slang.com/guides/widget-installation
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the specific passage where possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: What should it say instead? Draft wording is very welcome.
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who is affected?
+      multiple: true
+      options:
+        - New users getting started
+        - Developers integrating the API or SDK
+        - Support agents using the dashboard
+        - Administrators configuring the workspace
+        - Self-hosting operators
+        - Contributors to Slang
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to submit a PR fixing this

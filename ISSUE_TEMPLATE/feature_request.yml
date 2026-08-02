@@ -1,0 +1,89 @@
+name: 💡 Feature Request
+description: Propose a new capability or an improvement to an existing one
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The strongest feature requests describe a **problem** rather than a solution — that gives us room to find the best answer.
+
+        💡 Not fully formed yet? Start in [Feature Request Discussions](https://github.com/slang/slang-community/discussions/categories/feature-requests) instead.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions
+          required: true
+        - label: I checked the [public roadmap](https://github.com/orgs/slang/projects/1)
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the situation, not the feature. What are you unable to do today?
+      placeholder: Our team handles 200 conversations a day and cannot tell which have been waiting longest, so customers occasionally wait hours without a reply.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like Slang to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Including workarounds you currently use.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Widget
+        - Dashboard / Inbox
+        - API
+        - SDK
+        - AI Assistant
+        - Ticketing
+        - Knowledge Base
+        - Analytics
+        - Integrations
+        - Administration / Permissions
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Blocking — we cannot adopt Slang without it
+        - High — we have a painful workaround
+        - Medium — would meaningfully improve our workflow
+        - Low — nice to have
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Team size, use case, mockups, or how other tools solve this.
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to help implement this
+        - label: I would be willing to help test this

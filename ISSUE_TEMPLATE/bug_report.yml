@@ -1,0 +1,127 @@
+name: 🐞 Bug Report
+description: Report something that is broken or behaving incorrectly
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill in as much as you can — a reproducible report gets fixed far faster than a vague one.
+
+        🔐 **Security vulnerability?** Do not use this form. Report it privately via [Security Advisories](https://github.com/slang/slang-platform/security/advisories/new).
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions for a duplicate
+          required: true
+        - label: I am using the latest version
+          required: true
+        - label: This is not a security vulnerability
+          required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of Slang is affected?
+      options:
+        - Widget (embeddable chat)
+        - Dashboard (agent interface)
+        - API / Backend
+        - JavaScript SDK
+        - Integrations
+        - AI Assistant
+        - Analytics
+        - Documentation
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the incorrect behaviour.
+      placeholder: When I click "Assign to teammate", the conversation disappears from the inbox entirely.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Precise enough that we can reproduce it independently.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: reproduction-link
+    attributes:
+      label: Minimal reproduction link
+      description: A repo, CodeSandbox, or StackBlitz. Dramatically increases the chance of a fast fix.
+      placeholder: https://github.com/your-name/slang-bug-repro
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, errors, or screenshots
+      description: Full error text please, not a paraphrase. Redact any tokens or customer data.
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: Slang version
+      placeholder: "@slang/sdk-js 0.4.2 / widget 0.4.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Mobile Safari (iOS)
+        - Chrome (Android)
+        - Node.js
+        - Self-hosted
+        - Slang Cloud
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical — data loss, security, or total outage
+        - High — core feature unusable, no workaround
+        - Medium — feature impaired, workaround exists
+        - Low — cosmetic or minor annoyance
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Frequency, when it started, related changes on your side.

@@ -1,0 +1,116 @@
+name: ⚡ Performance Issue
+description: Report slowness, high resource usage, or excessive bundle size
+title: "[Perf]: "
+labels: ["performance", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Performance reports need numbers. "It feels slow" is a starting point, but measurements are what let us fix it.
+
+        📊 Please include timings, profiles, or a Lighthouse report wherever you can.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Widget — load time or bundle size
+        - Widget — runtime interaction
+        - Dashboard — initial load
+        - Dashboard — interaction or rendering
+        - API — response latency
+        - API — throughput under load
+        - Realtime — message delivery latency
+        - Realtime — connection or reconnection
+        - Database — slow queries
+        - Search
+        - AI Assistant — response time
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is slow?
+      description: The specific operation and the conditions.
+      placeholder: Opening a conversation with more than ~500 messages freezes the dashboard for several seconds before rendering.
+    validations:
+      required: true
+
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements
+      description: Timings, Lighthouse scores, profiler output, bundle analysis, or query plans.
+      placeholder: |
+        Conversation open (500 messages): 4.2s
+        Conversation open (50 messages):  180ms
+        Chrome profile: 3.1s in reconcileChildren
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: What performance would you expect?
+      placeholder: Under 500ms regardless of message count
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the data volume — record counts matter enormously here.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scale
+    attributes:
+      label: Scale
+      description: Rough numbers help us reproduce realistically.
+      value: |
+        Conversations:
+        Messages in affected conversation:
+        Team members:
+        Concurrent visitors:
+        Knowledge base articles:
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      value: |
+        Browser + version:
+        Device / CPU:
+        RAM:
+        Network (fast 3G, WiFi, etc.):
+        Slang version:
+        Self-hosted or Slang Cloud:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: regression
+    attributes:
+      label: Is this a regression?
+      options:
+        - "Yes — it was faster in a previous version"
+        - "No — it has always been this slow"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: input
+    id: last-good
+    attributes:
+      label: Last known good version
+      description: Only if this is a regression.
+      placeholder: 0.3.8
