@@ -13,13 +13,13 @@ You do not need to write code to be useful:
 
 | Contribution | Where |
 |---|---|
-| 🐞 Report a bug | [Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
-| 💡 Suggest a feature | [Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
-| 📖 Improve documentation | [`slang-docs`](https://github.com/slang/slang-docs) |
-| 🔌 Build an integration | [`slang-integrations`](https://github.com/slang/slang-integrations) |
-| 🌍 Translate the widget | [`slang-widget`](https://github.com/slang/slang-widget) |
-| 💬 Answer questions | [Q&A](https://github.com/slang/slang-community/discussions/categories/q-a) |
-| 💻 Write code | Read on |
+| Report a bug | [Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
+| Suggest a feature | [Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
+| Improve documentation | [`slang-docs`](https://github.com/slang/slang-docs) |
+| Build an integration | [`slang-integrations`](https://github.com/slang/slang-integrations) |
+| Translate the widget | [`slang-widget`](https://github.com/slang/slang-widget) |
+| Answer questions | [Q&A](https://github.com/slang/slang-community/discussions/categories/q-a) |
+| Write code | Read on |
 
 **New here?** Start with [`good first issue`](https://github.com/search?q=org%3Aslang+label%3A%22good+first+issue%22+state%3Aopen&type=issues).
 
