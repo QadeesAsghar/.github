@@ -1,4 +1,4 @@
-name: 🔌 Integration Request
+name: Integration Request
 description: Request an integration between Slang and another product
 title: "[Integration]: "
 labels: ["integration", "enhancement", "triage"]
