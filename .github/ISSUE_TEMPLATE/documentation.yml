@@ -1,4 +1,4 @@
-name: 📖 Documentation Improvement
+name: Documentation Improvement
 description: Report missing, unclear, outdated, or incorrect documentation
 title: "[Docs]: "
 labels: ["documentation", "triage"]
@@ -8,7 +8,7 @@ body:
       value: |
         Documentation problems are real problems. Thanks for flagging this.
 
-        ✏️ Small fix like a typo or broken link? Skip this form and open a PR against [`slang-docs`](https://github.com/slang/slang-docs) directly — it is faster for everyone.
+        Small fix like a typo or broken link? Skip this form and open a PR against [`slang-docs`](https://github.com/slang/slang-docs) directly — it is faster for everyone.
 
   - type: dropdown
     id: kind
