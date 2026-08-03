@@ -1,4 +1,4 @@
-name: 💡 Feature Request
+name: Feature Request
 description: Propose a new capability or an improvement to an existing one
 title: "[Feature]: "
 labels: ["enhancement", "triage"]
@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for the suggestion. The strongest feature requests describe a **problem** rather than a solution — that gives us room to find the best answer.
 
-        💡 Not fully formed yet? Start in [Feature Request Discussions](https://github.com/slang/slang-community/discussions/categories/feature-requests) instead.
+        Not fully formed yet? Start in [Feature Request Discussions](https://github.com/slang/slang-community/discussions/categories/feature-requests) instead.
 
   - type: checkboxes
     id: prerequisites
