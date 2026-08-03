@@ -11,7 +11,7 @@ seriousness.
 
 | Version | Supported |
 |---|:---:|
-| `0.x` (pre-release) | ✅ Latest only |
+| `0.x` (pre-release) | Latest only |
 
 Once Slang reaches `1.0`, this table will list the current major version plus
 the previous one for twelve months.
