@@ -23,14 +23,14 @@ integrations, unified in a single product.
 
 |  |  |
 |---|---|
-| **💬 Live Chat** | A fast, accessible widget that drops onto any website with one script tag. Under 15 KB gzipped. |
-| **📥 Shared Inbox** | One queue for your whole team. Assignment, internal notes, collision detection, saved replies. |
-| **🤖 AI Assistants** | Answer instantly from your own knowledge base, summarise long threads, and draft replies your agents approve. |
-| **🎫 Ticketing** | Turn any conversation into a tracked ticket with priority, SLA timers, and full audit history. |
-| **📚 Knowledge Base** | Public help centre and private internal docs — the same source the AI answers from. |
-| **📊 Analytics** | Response time, resolution rate, CSAT, and agent workload. Measured, not guessed. |
-| **🔌 Integrations** | Slack, Shopify, WordPress, HubSpot, and a webhook API for everything else. |
-| **🧩 Developer Platform** | REST API, official SDKs, and webhooks. Everything the dashboard does, the API can do. |
+| **Live Chat** | A fast, accessible widget that drops onto any website with one script tag. Under 15 KB gzipped. |
+| **Shared Inbox** | One queue for your whole team. Assignment, internal notes, collision detection, saved replies. |
+| **AI Assistants** | Answer instantly from your own knowledge base, summarise long threads, and draft replies your agents approve. |
+| **Ticketing** | Turn any conversation into a tracked ticket with priority, SLA timers, and full audit history. |
+| **Knowledge Base** | Public help centre and private internal docs — the same source the AI answers from. |
+| **Analytics** | Response time, resolution rate, CSAT, and agent workload. Measured, not guessed. |
+| **Integrations** | Slack, Shopify, WordPress, HubSpot, and a webhook API for everything else. |
+| **Developer Platform** | REST API, official SDKs, and webhooks. Everything the dashboard does, the API can do. |
 
 
 
@@ -41,10 +41,10 @@ integrations, unified in a single product.
 
 ## Community
 
-- 💬 **[Discussions](https://github.com/QadeesAsghar/slang-community/discussions)** — ask questions, request features, show what you built
-- 🚀 **[Public Roadmap](https://github.com/orgs/QadeesAsghar/projects/1)** — what we are building now, next, and later
-- 🐞 **[Report a bug](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports)** — we triage every report
-- 📢 **[Announcements](https://github.com/QadeesAsghar/slang-community/discussions/categories/announcements)** — releases and changelog
+- **[Discussions](https://github.com/QadeesAsghar/slang-community/discussions)** — ask questions, request features, show what you built
+- **[Public Roadmap](https://github.com/orgs/QadeesAsghar/projects/1)** — what we are building now, next, and later
+- **[Report a bug](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports)** — we triage every report
+- **[Announcements](https://github.com/QadeesAsghar/slang-community/discussions/categories/announcements)** — releases and changelog
 
 
 
