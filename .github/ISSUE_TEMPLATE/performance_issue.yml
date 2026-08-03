@@ -1,4 +1,4 @@
-name: ⚡ Performance Issue
+name: Performance Issue
 description: Report slowness, high resource usage, or excessive bundle size
 title: "[Perf]: "
 labels: ["performance", "triage"]
@@ -8,7 +8,7 @@ body:
       value: |
         Performance reports need numbers. "It feels slow" is a starting point, but measurements are what let us fix it.
 
-        📊 Please include timings, profiles, or a Lighthouse report wherever you can.
+        Please include timings, profiles, or a Lighthouse report wherever you can.
 
   - type: dropdown
     id: component
