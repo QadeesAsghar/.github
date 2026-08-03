@@ -9,11 +9,11 @@ way to do that.
 
 | I want to… | Go here |
 |---|---|
-| **Ask how to do something** | [❓ Q&A Discussions](https://github.com/slang/slang-community/discussions/categories/q-a) |
+| **Ask how to do something** | [Q&A Discussions](https://github.com/slang/slang-community/discussions/categories/q-a) |
 | **Read the documentation** | [docs.slang.com](https://docs.slang.com) |
-| **Report a bug** | [🐞 Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
-| **Request a feature** | [💡 Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
-| **Request an integration** | [🔌 Integrations](https://github.com/slang/slang-community/discussions/categories/integrations) |
+| **Report a bug** | [Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
+| **Request a feature** | [Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
+| **Request an integration** | [Integrations](https://github.com/slang/slang-community/discussions/categories/integrations) |
 | **Report a security vulnerability** | [SECURITY.md](SECURITY.md) — **never a public issue** |
 | **Ask about billing or your account** | support@slang.com |
 | **Discuss enterprise or partnerships** | partners@slang.com |
