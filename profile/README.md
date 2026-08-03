@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/slang/slang-design/main/logo/slang-logo-dark.svg#gh-dark-mode-only" alt="Slang" width="180">
-<img src="https://raw.githubusercontent.com/slang/slang-design/main/logo/slang-logo-light.svg#gh-light-mode-only" alt="Slang" width="180">
+<img src="https://raw.githubusercontent.com/QadeesAsghar/slang-design/main/brand/logo/slang-logo-dark.svg#gh-dark-mode-only" alt="Slang" width="180">
+<img src="https://raw.githubusercontent.com/QadeesAsghar/slang-design/main/brand/logo/slang-logo-light.svg#gh-light-mode-only" alt="Slang" width="180">
 
 ### Every customer conversation, in one place.
 
@@ -9,11 +9,11 @@
 team inbox, AI assistants, ticketing, a knowledge base, analytics, and
 integrations, unified in a single product.
 
-[Website](https://slang.com) · [Documentation](https://docs.slang.com) · [Roadmap](https://github.com/orgs/slang/projects/1) · [Discussions](https://github.com/slang/slang-community/discussions)
+[Website](https://slang.com) · [Documentation](https://docs.slang.com) · [Roadmap](https://github.com/orgs/QadeesAsghar/projects/1) · [Discussions](https://github.com/QadeesAsghar/slang-community/discussions)
 
 [![Docs](https://img.shields.io/badge/docs-slang.com-0e8a16?style=flat-square)](https://docs.slang.com)
-[![Discussions](https://img.shields.io/badge/community-discussions-5319e7?style=flat-square)](https://github.com/slang/slang-community/discussions)
-[![License](https://img.shields.io/badge/core-AGPL--3.0-1d76db?style=flat-square)](https://github.com/slang/slang-platform/blob/main/LICENSE)
+[![Discussions](https://img.shields.io/badge/community-discussions-5319e7?style=flat-square)](https://github.com/QadeesAsghar/slang-community/discussions)
+[![License](https://img.shields.io/badge/core-AGPL--3.0-1d76db?style=flat-square)](https://github.com/QadeesAsghar/slang-platform/blob/main/LICENSE)
 
 </div>
 
@@ -41,19 +41,19 @@ integrations, unified in a single product.
 
 ## Community
 
-- 💬 **[Discussions](https://github.com/slang/slang-community/discussions)** — ask questions, request features, show what you built
-- 🚀 **[Public Roadmap](https://github.com/orgs/slang/projects/1)** — what we are building now, next, and later
-- 🐞 **[Report a bug](https://github.com/slang/slang-community/discussions/categories/bug-reports)** — we triage every report
-- 📢 **[Announcements](https://github.com/slang/slang-community/discussions/categories/announcements)** — releases and changelog
+- 💬 **[Discussions](https://github.com/QadeesAsghar/slang-community/discussions)** — ask questions, request features, show what you built
+- 🚀 **[Public Roadmap](https://github.com/orgs/QadeesAsghar/projects/1)** — what we are building now, next, and later
+- 🐞 **[Report a bug](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports)** — we triage every report
+- 📢 **[Announcements](https://github.com/QadeesAsghar/slang-community/discussions/categories/announcements)** — releases and changelog
 
 
 
 
-Start with **[CONTRIBUTING.md](https://github.com/slang/.github/blob/main/CONTRIBUTING.md)**,
-then look for issues labelled [`good first issue`](https://github.com/search?q=org%3Aslang+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
-or [`help wanted`](https://github.com/search?q=org%3Aslang+label%3A%22help+wanted%22+state%3Aopen&type=issues).
+Start with **[CONTRIBUTING.md](https://github.com/QadeesAsghar/.github/blob/main/CONTRIBUTING.md)**,
+then look for issues labelled [`good first issue`](https://github.com/search?q=org%3AQadeesAsghar+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
+or [`help wanted`](https://github.com/search?q=org%3AQadeesAsghar+label%3A%22help+wanted%22+state%3Aopen&type=issues).
 
-All participation is governed by our [Code of Conduct](https://github.com/slang/.github/blob/main/CODE_OF_CONDUCT.md).
+All participation is governed by our [Code of Conduct](https://github.com/QadeesAsghar/.github/blob/main/CODE_OF_CONDUCT.md).
 
 
 
