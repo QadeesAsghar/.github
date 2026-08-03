@@ -1,26 +1,26 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: ❓ Question or Help
+  - name: Question or Help
     url: https://github.com/slang/slang-community/discussions/categories/q-a
     about: Ask how to do something. Questions get faster answers in Discussions than in issues.
 
-  - name: 💡 Feature Idea (not yet a request)
+  - name: Feature Idea (not yet a request)
     url: https://github.com/slang/slang-community/discussions/categories/feature-requests
     about: Not sure it belongs in Slang yet? Discuss it first — no issue required.
 
-  - name: 🔐 Report a Security Vulnerability
+  - name: Report a Security Vulnerability
     url: https://github.com/slang/slang-platform/security/advisories/new
     about: NEVER report security issues publicly. Use private Security Advisories.
 
-  - name: 📖 Documentation
+  - name: Documentation
     url: https://docs.slang.com
     about: Most questions are already answered in the docs.
 
-  - name: 🚀 Public Roadmap
+  - name: Public Roadmap
     url: https://github.com/orgs/slang/projects/1
     about: See what is planned before requesting it.
 
-  - name: 💬 Community Discussions
+  - name: Community Discussions
     url: https://github.com/slang/slang-community/discussions
     about: General conversation, showcases, and announcements.
