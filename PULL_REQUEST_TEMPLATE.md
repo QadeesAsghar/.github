@@ -15,14 +15,14 @@ Closes #
 
 ## Type of change
 
-- [ ] 🐞 Bug fix (non-breaking change that fixes an issue)
-- [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] 💥 Breaking change (existing behaviour changes)
-- [ ] 📖 Documentation
-- [ ] ♻️ Refactor (no behaviour change)
-- [ ] ⚡ Performance
-- [ ] 🧪 Tests
-- [ ] 🔧 Build / CI / tooling
+- [ ] Bug fix (non-breaking change that fixes an issue)
+- [ ] New feature (non-breaking change that adds functionality)
+- [ ] Breaking change (existing behaviour changes)
+- [ ] Documentation
+- [ ] Refactor (no behaviour change)
+- [ ] Performance
+- [ ] Tests
+- [ ] Build / CI / tooling
 
 ## How was this tested?
 
