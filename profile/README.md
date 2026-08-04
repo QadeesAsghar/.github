@@ -3,62 +3,60 @@
 <img src="https://raw.githubusercontent.com/QadeesAsghar/slang-design/main/brand/logo/slang-logo-dark.svg#gh-dark-mode-only" alt="Slang" width="180">
 <img src="https://raw.githubusercontent.com/QadeesAsghar/slang-design/main/brand/logo/slang-logo-light.svg#gh-light-mode-only" alt="Slang" width="180">
 
-### Every customer conversation, in one place.
-
-**Slang** is a customer communication platform .Live chat, a shared
-team inbox, AI assistants, ticketing, a knowledge base, analytics, and
-integrations, unified in a single product.
-
-[Website](https://slang.com) · [Documentation](https://docs.slang.com) · [Roadmap](https://github.com/orgs/QadeesAsghar/projects/1) · [Discussions](https://github.com/QadeesAsghar/slang-community/discussions)
-
-[![Docs](https://img.shields.io/badge/docs-slang.com-0e8a16?style=flat-square)](https://docs.slang.com)
-[![Discussions](https://img.shields.io/badge/community-discussions-5319e7?style=flat-square)](https://github.com/QadeesAsghar/slang-community/discussions)
-[![License](https://img.shields.io/badge/core-AGPL--3.0-1d76db?style=flat-square)](https://github.com/QadeesAsghar/slang-platform/blob/main/LICENSE)
+### Every customer conversation, in one place
 
 </div>
 
 ---
 
-## What Slang does
+## What Slang is
 
-|  |  |
-|---|---|
-| **Live Chat** | A fast, accessible widget that drops onto any website with one script tag. Under 15 KB gzipped. |
-| **Shared Inbox** | One queue for your whole team. Assignment, internal notes, collision detection, saved replies. |
-| **AI Assistants** | Answer instantly from your own knowledge base, summarise long threads, and draft replies your agents approve. |
-| **Ticketing** | Turn any conversation into a tracked ticket with priority, SLA timers, and full audit history. |
-| **Knowledge Base** | Public help centre and private internal docs — the same source the AI answers from. |
-| **Analytics** | Response time, resolution rate, CSAT, and agent workload. Measured, not guessed. |
-| **Integrations** | Slack, Shopify, WordPress, HubSpot, and a webhook API for everything else. |
-| **Developer Platform** | REST API, official SDKs, and webhooks. Everything the dashboard does, the API can do. |
+Most small businesses answer their customers across a scattered set of tools. A
+chat box from one company, a shared mailbox, a spreadsheet of customer details,
+and a messaging app for talking to each other about all of it. Context gets lost
+between them, and nobody can easily say how long a customer has been waiting.
 
+The established products that solve this properly are priced for companies with a
+whole support department. The affordable ones handle chat and stop there.
 
+Slang is being built to sit in that gap: one place where a customer conversation
+arrives, is answered, and is remembered. Affordable enough for a team of five,
+and built so it still works for a team of five hundred.
 
+## What it does
 
+A business adds a small chat launcher to their website. When a visitor asks a
+question, it arrives in a shared inbox that the whole team can see. Anyone on the
+team can reply, and the reply appears to the visitor immediately. The conversation
+is kept, so the next time that person gets in touch, whoever answers already knows
+the history.
 
+Around that sits the rest of what a support team needs: knowing who is handling
+what, keeping track of customers, searching past conversations, and controlling
+who on the team can see and do which things.
 
+## Where the project is
 
+Early development. Slang is not finished, not released, and not ready to be used
+for anything real yet. The foundations are being built now.
 
-## Community
+Progress is public. If you would like to follow along, ask something, or suggest
+a direction, the community repository is the place to do it.
 
-- **[Discussions](https://github.com/QadeesAsghar/slang-community/discussions)** — ask questions, request features, show what you built
-- **[Public Roadmap](https://github.com/orgs/QadeesAsghar/projects/1)** — what we are building now, next, and later
-- **[Report a bug](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports)** — we triage every report
-- **[Announcements](https://github.com/QadeesAsghar/slang-community/discussions/categories/announcements)** — releases and changelog
+## Getting involved
 
+Contributions are welcome, and not only code. Clear problem reports, improvements
+to the documentation, and answering someone else's question all genuinely help.
 
+Everyone taking part is expected to follow the code of conduct.
 
+## Security
 
-Start with **[CONTRIBUTING.md](https://github.com/QadeesAsghar/.github/blob/main/CONTRIBUTING.md)**,
-then look for issues labelled [`good first issue`](https://github.com/search?q=org%3AQadeesAsghar+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
-or [`help wanted`](https://github.com/search?q=org%3AQadeesAsghar+label%3A%22help+wanted%22+state%3Aopen&type=issues).
+If you find a security problem, please report it privately rather than opening a
+public issue. Details are in the security policy.
 
-All participation is governed by our [Code of Conduct](https://github.com/QadeesAsghar/.github/blob/main/CODE_OF_CONDUCT.md).
+## Contact
 
-
-
-
-
-<div align="center">
-<sub>Built in the open. Core licensed under AGPL-3.0 · SDKs and widget under MIT.</sub>
-</div>
+General enquiries: hello@slang.com
+Security reports: security@slang.com
+Partnerships: partners@slang.com
