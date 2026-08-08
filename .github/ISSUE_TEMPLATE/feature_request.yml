@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for the suggestion. The strongest feature requests describe a **problem** rather than a solution — that gives us room to find the best answer.
 
-        Not fully formed yet? Start in [Feature Request Discussions](https://github.com/slang/slang-community/discussions/categories/feature-requests) instead.
+        Not fully formed yet? Start in [Feature Request Discussions](https://github.com/QadeesAsghar/slang-community/discussions/categories/feature-requests) instead.
 
   - type: checkboxes
     id: prerequisites
@@ -17,7 +17,7 @@ body:
       options:
         - label: I searched existing issues and discussions
           required: true
-        - label: I checked the [public roadmap](https://github.com/orgs/slang/projects/1)
+        - label: I checked the [public roadmap](https://github.com/orgs/QadeesAsghar/projects/1)
           required: true
 
   - type: textarea

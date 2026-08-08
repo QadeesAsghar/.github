@@ -13,15 +13,15 @@ You do not need to write code to be useful:
 
 | Contribution | Where |
 |---|---|
-| Report a bug | [Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
-| Suggest a feature | [Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
-| Improve documentation | [`slang-docs`](https://github.com/slang/slang-docs) |
-| Build an integration | [`slang-integrations`](https://github.com/slang/slang-integrations) |
-| Translate the widget | [`slang-widget`](https://github.com/slang/slang-widget) |
-| Answer questions | [Q&A](https://github.com/slang/slang-community/discussions/categories/q-a) |
+| Report a bug | [Bug Reports](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports) |
+| Suggest a feature | [Feature Requests](https://github.com/QadeesAsghar/slang-community/discussions/categories/feature-requests) |
+| Improve documentation | [`slang-docs`](https://github.com/QadeesAsghar/slang-docs) |
+| Build an integration | [`slang-integrations`](https://github.com/QadeesAsghar/slang-integrations) |
+| Translate the widget | [`slang-widget`](https://github.com/QadeesAsghar/slang-widget) |
+| Answer questions | [Q&A](https://github.com/QadeesAsghar/slang-community/discussions/categories/q-a) |
 | Write code | Read on |
 
-**New here?** Start with [`good first issue`](https://github.com/search?q=org%3Aslang+label%3A%22good+first+issue%22+state%3Aopen&type=issues).
+**New here?** Start with [`good first issue`](https://github.com/search?q=org%3AQadeesAsghar+label%3A%22good+first+issue%22+state%3Aopen&type=issues).
 
 ---
 
@@ -52,7 +52,7 @@ comment clarifications. Just open the PR.
 ### Getting started
 
 ```bash
-git clone https://github.com/slang/slang-platform.git
+git clone https://github.com/QadeesAsghar/slang-platform.git
 cd slang-platform
 
 corepack enable
@@ -188,15 +188,74 @@ otherwise, tell us — that is a Code of Conduct matter and we want to know.
 
 ## Licensing of contributions
 
-By contributing you agree that your work is licensed under the repository's
-licence:
+`slang-platform` is licensed under **AGPL-3.0** ([LICENSE](https://github.com/QadeesAsghar/slang-platform/blob/main/LICENSE)).
+By contributing to it you agree that your contribution is licensed under those
+same terms. You keep the copyright in your own work.
 
-| Repository | Licence |
-|---|---|
-| `slang-platform`, `slang-api` | AGPL-3.0 |
-| `slang-widget`, `slang-sdk-js`, `slang-examples` | MIT |
-| `slang-integrations` | Apache-2.0 |
-| `slang-docs`, `slang-community` | CC-BY-4.0 (code samples MIT) |
+The other repositories are planned to carry different licences - MIT for the
+widget, SDK, and examples; Apache-2.0 for integrations; CC-BY-4.0 for docs and
+community content. **Those licences have not been applied yet**, so please do
+not contribute to those repositories expecting settled terms. Ask first, and we
+will sort the licence out before your work lands.
+
+### Contributor licence agreement
+
+Slang intends to keep commercial or dual licensing possible in the future. That
+requires the project to hold sufficient rights in every contribution, which
+AGPL-3.0 alone does not provide.
+
+A contributor licence agreement is therefore planned. **It has not been written,
+reviewed, or adopted**, and nothing is being asked of you today beyond the
+paragraph above. Substantial external contributions may be asked to wait for it,
+and we will say so early rather than after you have done the work.
+
+No retroactive claim is made over contributions already submitted.
+
+---
+
+## Roles, and what they do not mean
+
+Slang is founded and led by **Qadees Asghar** (sole Founder).
+
+Contributors and maintainers hold exactly the role they were given, and those
+roles describe involvement in the project - not ownership of it.
+
+**GitHub organisation membership, repository permissions, administrator status,
+and write access are access-control mechanisms.** They do not by themselves
+confer founder status, business ownership, equity, or intellectual-property
+ownership in Slang. A GitHub administrator is a technical administrator unless a
+different organisational role has been agreed separately and in writing.
+
+Please do not describe yourself publicly as a Founder, Co-Founder, Owner, or
+Co-owner of Slang. Contributor, Software Engineer, Core Team Member, Maintainer,
+or Administrator are all accurate where they apply, and we are glad to have you
+use them.
+
+Contributing does not transfer ownership of Slang, and does not grant equity or
+intellectual-property rights beyond the licence your contribution carries.
+Anything different needs a separate written agreement.
+
+Full model: [GOVERNANCE.md](https://github.com/QadeesAsghar/slang-platform/blob/main/GOVERNANCE.md).
+
+---
+
+## Security and confidentiality
+
+Contributors are expected not to:
+
+- Commit secrets, credentials, tokens, or keys
+- Access customer or another organisation's data without authorisation
+- Attempt cross-tenant access outside approved security testing
+- Bypass authentication or authorisation controls
+- Introduce malicious code, backdoors, or anything designed to exfiltrate data
+- Publish private internal project information
+
+Report security vulnerabilities through the process in
+[SECURITY.md](SECURITY.md) rather than demonstrating them publicly or against
+data you do not own.
+
+None of this is aimed at anyone in particular - it is written down so the
+expectation is explicit rather than assumed.
 
 ---
 
@@ -209,5 +268,5 @@ contributors may be invited to become maintainers.
 
 ## Questions
 
-Ask in [Discussions](https://github.com/slang/slang-community/discussions) —
+Ask in [Discussions](https://github.com/QadeesAsghar/slang-community/discussions) —
 there is no such thing as a question too basic.

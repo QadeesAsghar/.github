@@ -57,6 +57,8 @@ public issue. Details are in the security policy.
 
 ## Contact
 
-General enquiries: hello@slang.com
-Security reports: security@slang.com
-Partnerships: partners@slang.com
+Slang is in early development and does not run email support yet. Everything
+goes through GitHub for now:
+
+- **General questions and feedback**: [Discussions](https://github.com/QadeesAsghar/slang-community/discussions)
+- **Security reports**: [report a vulnerability privately](https://github.com/QadeesAsghar/slang-platform/security/advisories/new) - see the [security policy](https://github.com/QadeesAsghar/.github/blob/main/SECURITY.md)

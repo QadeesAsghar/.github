@@ -23,19 +23,18 @@ the previous one for twelve months.
 **Do not open a public issue, discussion, or pull request for a security
 vulnerability.** Public disclosure before a fix puts every user at risk.
 
-### Preferred: GitHub Security Advisories
+### GitHub Security Advisories
 
 Report privately via
-**[Report a vulnerability](https://github.com/slang/slang-platform/security/advisories/new)**.
-This creates a private thread visible only to maintainers, and lets us issue a
-CVE and coordinate disclosure with you.
+**[Report a vulnerability](https://github.com/QadeesAsghar/slang-platform/security/advisories/new)**.
+This creates a private thread visible only to maintainers, and lets us
+coordinate disclosure with you.
 
-### Alternative: Email
-
-**security@slang.com**
-
-Encrypt with our PGP key if the report is sensitive. Key fingerprint published at
-`https://slang.com/.well-known/security.txt`.
+This is currently the **only** reporting channel. Slang does not yet operate a
+security mailbox, and we would rather say so than publish an address that
+nobody reads. If you cannot use GitHub advisories, open a normal issue asking
+for a private contact - **without any vulnerability detail in it** - and we
+will arrange a channel.
 
 ---
 
@@ -71,8 +70,8 @@ anonymous. Tell us which you want.
 
 ### In scope
 
-- `slang-platform`, `slang-api`, `slang-widget`, `slang-sdk-js`, `slang-integrations`
-- The hosted service at `*.slang.com`
+- `slang-platform` — the monorepo, which contains the API, the dashboard, and
+  the widget
 - **Tenant isolation failures** — any path where one organization can reach another's data. We treat these as critical by default.
 - Authentication and session handling
 - Authorization and privilege escalation
@@ -92,6 +91,10 @@ anonymous. Tell us which you want.
 - Self-XSS
 - Reports about email SPF/DKIM/DMARC configuration on non-mail domains
 
+**There is no hosted Slang service yet.** Slang is in early development and is
+not deployed anywhere. Any domain currently serving something under the Slang
+name is not operated by this project, and reports about it are out of scope.
+
 ---
 
 ## Safe harbour
@@ -108,22 +111,38 @@ We will not pursue legal action against researchers who:
 
 ## Bug bounty
 
-We do not currently run a paid bounty programme. We do offer public credit,
-Slang swag, and free platform credit for valid reports. A formal programme is
-planned once the platform reaches general availability.
+**There is no bounty programme, and no rewards of any kind.** Slang is in early
+development and has no paid tier, no merchandise, and no platform credit to
+give. We would rather state that plainly than imply a reward that does not
+exist.
+
+What we can offer is public credit in the advisory and the release notes, if
+you want it. A formal programme may follow once the platform reaches general
+availability.
 
 ---
 
 ## Security practices
 
-For transparency, current measures:
+For transparency, and limited to what is actually implemented and verifiable in
+the repository today:
 
-- Passwords hashed with **Argon2id**, never stored in plaintext or reversibly encrypted
-- All traffic over **TLS 1.3**
-- Tenant isolation enforced at the **database layer** via row-level security, not application logic alone
-- Secrets held in environment configuration, never committed — enforced by push protection
-- **Dependabot** and **CodeQL** run on every repository
-- Audit logging on all authentication, permission, and configuration changes
+- Passwords hashed with **Argon2id** at OWASP baseline parameters, never stored
+  in plaintext or reversibly encrypted
+- **Tenant isolation enforced at the database layer** through PostgreSQL
+  row-level security and a non-superuser application role, not by application
+  logic alone. An automated isolation suite runs as a release gate
+- Session tokens are httpOnly, are never returned in a response body, and are
+  stored hashed
+- Audit logging on authentication, permission, and configuration changes, in an
+  append-only table where `UPDATE` and `DELETE` are revoked at the database level
+- Secrets are kept in environment configuration and excluded from version
+  control by `.gitignore`
+
+**Not yet in place**, listed so this page cannot be mistaken for more than it
+is: transport security and infrastructure hardening (nothing is deployed),
+automated dependency scanning, code scanning, secret-scanning push protection,
+and any external security review.
 - Least-privilege role-based access control
 
 ---

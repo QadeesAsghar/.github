@@ -50,9 +50,12 @@ when an individual is officially representing the community in public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be
-reported to the community leaders responsible for enforcement at:
+reported to the project's Founder, Qadees Asghar, by direct message on GitHub
+([@Qadees-Asghar](https://github.com/Qadees-Asghar)).
 
-**conduct@slang.com**
+Slang does not operate a dedicated conduct mailbox yet. Rather than publish an
+address nobody monitors, this points at a channel that is actually read. A
+proper reporting address will replace this once the project has one.
 
 All complaints will be reviewed and investigated promptly and fairly. All
 community leaders are obligated to respect the privacy and security of the

@@ -9,15 +9,14 @@ way to do that.
 
 | I want to… | Go here |
 |---|---|
-| **Ask how to do something** | [Q&A Discussions](https://github.com/slang/slang-community/discussions/categories/q-a) |
-| **Read the documentation** | [docs.slang.com](https://docs.slang.com) |
-| **Report a bug** | [Bug Reports](https://github.com/slang/slang-community/discussions/categories/bug-reports) |
-| **Request a feature** | [Feature Requests](https://github.com/slang/slang-community/discussions/categories/feature-requests) |
-| **Request an integration** | [Integrations](https://github.com/slang/slang-community/discussions/categories/integrations) |
+| **Ask how to do something** | [Q&A Discussions](https://github.com/QadeesAsghar/slang-community/discussions/categories/q-a) |
+| **Read the documentation** | Not published yet - the docs site is planned, not live |
+| **Report a bug** | [Bug Reports](https://github.com/QadeesAsghar/slang-community/discussions/categories/bug-reports) |
+| **Request a feature** | [Feature Requests](https://github.com/QadeesAsghar/slang-community/discussions/categories/feature-requests) |
+| **Request an integration** | [Integrations](https://github.com/QadeesAsghar/slang-community/discussions/categories/integrations) |
 | **Report a security vulnerability** | [SECURITY.md](SECURITY.md) — **never a public issue** |
-| **Ask about billing or your account** | support@slang.com |
-| **Discuss enterprise or partnerships** | partners@slang.com |
-| **See what is being built** | [Public Roadmap](https://github.com/orgs/slang/projects/1) |
+| **Ask about billing, accounts, or partnerships** | Not available yet - Slang has no paid tier and no email support |
+| **See what is being built** | [Public Roadmap](https://github.com/orgs/QadeesAsghar/projects/1) |
 
 ---
 
@@ -25,9 +24,8 @@ way to do that.
 
 You will usually get a faster answer if you have:
 
-1. **Searched the [docs](https://docs.slang.com)** — most questions are answered there
-2. **Searched [existing discussions](https://github.com/slang/slang-community/discussions)** — someone has likely asked already
-3. **Checked [open issues](https://github.com/search?q=org%3Aslang+is%3Aissue+is%3Aopen&type=issues)** — it may be a known bug
+1. **Searched [existing discussions](https://github.com/QadeesAsghar/slang-community/discussions)** — someone has likely asked already
+3. **Checked [open issues](https://github.com/search?q=org%3AQadeesAsghar+is%3Aissue+is%3Aopen&type=issues)** — it may be a known bug
 
 ---
 
@@ -76,4 +74,5 @@ mixture of work and open questions.
 ## Commercial support
 
 Priority support, SLAs, and dedicated onboarding are available on paid plans.
-Contact **sales@slang.com**.
+There is no sales contact yet - Slang has no paid tier. Ask in
+[Discussions](https://github.com/QadeesAsghar/slang-community/discussions).

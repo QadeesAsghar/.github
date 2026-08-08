@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for reporting a bug. Please fill in as much as you can — a reproducible report gets fixed far faster than a vague one.
 
-        **Security vulnerability?** Do not use this form. Report it privately via [Security Advisories](https://github.com/slang/slang-platform/security/advisories/new).
+        **Security vulnerability?** Do not use this form. Report it privately via [Security Advisories](https://github.com/QadeesAsghar/slang-platform/security/advisories/new).
 
   - type: checkboxes
     id: prerequisites

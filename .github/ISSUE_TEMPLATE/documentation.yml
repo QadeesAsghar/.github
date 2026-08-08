@@ -8,7 +8,7 @@ body:
       value: |
         Documentation problems are real problems. Thanks for flagging this.
 
-        Small fix like a typo or broken link? Skip this form and open a PR against [`slang-docs`](https://github.com/slang/slang-docs) directly — it is faster for everyone.
+        Small fix like a typo or broken link? Skip this form and open a PR against [`slang-docs`](https://github.com/QadeesAsghar/slang-docs) directly — it is faster for everyone.
 
   - type: dropdown
     id: kind
@@ -29,7 +29,7 @@ body:
     id: location
     attributes:
       label: Page URL or file path
-      placeholder: https://docs.slang.com/guides/widget-installation
+      placeholder: Path or file in the repository, e.g. apps/api/README.md
     validations:
       required: true
 

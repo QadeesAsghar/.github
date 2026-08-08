@@ -13,7 +13,7 @@ body:
     attributes:
       label: Before submitting
       options:
-        - label: I checked [`slang-integrations`](https://github.com/slang/slang-integrations) — it does not already exist
+        - label: I checked [`slang-integrations`](https://github.com/QadeesAsghar/slang-integrations) — it does not already exist
           required: true
         - label: I searched for an existing request
           required: true
